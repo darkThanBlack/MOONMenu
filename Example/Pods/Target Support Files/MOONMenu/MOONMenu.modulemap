@@ -1,0 +1,6 @@
+framework module MOONMenu {
+  umbrella header "MOONMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

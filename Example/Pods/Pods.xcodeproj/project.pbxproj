@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C23E9806E907C0304D74589A6272C8 /* moonmenu_item_dark_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3257DE39CF97C028077470B13D6EA54A /* moonmenu_item_dark_5@2x.png */; };
+		0E006EC28DBCEFF38B0EDD4A5BFCB42C /* moonmenu_item_dark_18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E05E1464B96D427D10B8CBF966CEC9C /* moonmenu_item_dark_18@2x.png */; };
+		0ED34CE1262E08A5439E033C26732A72 /* MOONMenuSkin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 610B3200DB66A7FCC73F9ADDFFCCA876 /* MOONMenuSkin.bundle */; };
+		1D702D641CAB8DEA7FB52A572C54E465 /* Pods-MOONMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F474F7363F366EFF7A54DB959C16B94A /* Pods-MOONMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31750AC80FEDC7F0A522F7B4A1789D4F /* moonmenu_item_dark_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8AF4847B8BCEE99E9665DFBEF8DB58 /* moonmenu_item_dark_0@2x.png */; };
+		3D77A03EAFB043ECF7B4E6C4CF97CB6C /* Pods-MOONMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7AD94593576DB9C1E67FCF1847AAF /* Pods-MOONMenu_Example-dummy.m */; };
+		423D5219F1509874D149623201AF42C1 /* moonmenu_item_dark_19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E032A6C489CB911794D6DE0B178BFD /* moonmenu_item_dark_19@2x.png */; };
+		452CFC0F0CB4C73B8F67FC794E60CC45 /* moonmenu_dark_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A5AE1D8659ADC4649620AEF52EC5E5 /* moonmenu_dark_back@2x.png */; };
+		4E49BC491DED853387BD26195E4D87F2 /* moonmenu_item_dark_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E53901FAC3FF3D68CEFD0111EA09B1 /* moonmenu_item_dark_2@2x.png */; };
+		50F490A8AF19D6134C1C30D1D3EC03A1 /* MOONMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 643CF278CDFA132E2BBFE282A893C1F9 /* MOONMenu-dummy.m */; };
+		522DC40D072F59DE225DA66355292290 /* MOONMenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C567068534C10EBBE20C00B3F6B7AA8 /* MOONMenuHelper.swift */; };
+		55CF7A731D3CC839FE6B68847B973584 /* moonmenu_item_dark_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7DF9FE3B4F2D78282A419AF1F719E /* moonmenu_item_dark_4@2x.png */; };
+		59D03E5A93F1DDACE3B9E15BFF656F2F /* moonmenu_item_dark_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454FC8F511B83475D0B9B6231367AB7 /* moonmenu_item_dark_10@2x.png */; };
+		62DE8D88CABA593438EEF89D00CAE386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		642B787B2ADD2123FD5A5D2758B0E773 /* MOONMenuDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C5F538124079D6D16FE70AF5038D7 /* MOONMenuDisplay.swift */; };
+		6561FC549F50F65EAD6F94EA99378B53 /* MOONMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EF03FC132E3C34DD5C30B9B3430D3F /* MOONMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D16C7453FAD6D6373E2222FF3CD1E0 /* moonmenu_item_dark_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE889CB91F523444429E9FC61BB52D4 /* moonmenu_item_dark_12@2x.png */; };
+		6B23A587E2628C28EFA86D64ABEECCCF /* moonmenu_item_dark_13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BE7ED78973DA4DE3FC1B693B6B382F /* moonmenu_item_dark_13@2x.png */; };
+		6E546F8DB518EB38BBA38759F3727535 /* moonmenu_dark_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FCEA14605DC73592E03CDB262B413D /* moonmenu_dark_more@2x.png */; };
+		70B2ED8AB9747EEE87D9FA38FFE66FEF /* MOONMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865A0EBCF86628B9796E904689C2D10 /* MOONMenuBasic.swift */; };
+		76A068796E1C496B6B6ED49A7739CFCD /* moonShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B0955DB51305FCCC9F6F62C83C41BE83 /* moonShadow.png */; };
+		7E577983FB5F4D5DFA1FEDEBB993BA34 /* moonmenu_item_dark_14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141954C2C4AF390A61E488E10E38343F /* moonmenu_item_dark_14@2x.png */; };
+		8BCB82F08A5DEB79171D5D6F7A855FA5 /* Pods-MOONMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6719B95A0F0BFC07FDE5F307344E7386 /* Pods-MOONMenu_Tests-dummy.m */; };
+		8D59DA2D4A5AA351FEBFE9FD5DA3B4C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9890EAADC83FF43A9F2327C7C566DE8F /* moonmenu_item_dark_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD992CBA4F68567D7E67E41E6B842DA8 /* moonmenu_item_dark_6@2x.png */; };
+		9BA0A345AF1F90CEDE1D8DAAAB225544 /* moonmenu_item_dark_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 102A75393FCD88C54D7A16ACCFB43470 /* moonmenu_item_dark_16@2x.png */; };
+		AA82EF884FA5CF6C0F3038A95927EB9A /* moonmenu_item_dark_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F639C22B028B204A483EE2C4E0326F /* moonmenu_item_dark_3@2x.png */; };
+		AECFB6E68B986C4FD56BC38F1765E95B /* Pods-MOONMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFFF0794D2E4AEB0AC7A8D09B551C5B /* Pods-MOONMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12C5CE6CD87D796F3056500F0EBD574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B73013F811019200D4A0A0DEECCB7E9D /* moonmenu_item_dark_17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9B15DE48ADEC6D48A8322C2EEC2B3A /* moonmenu_item_dark_17@2x.png */; };
+		C9E1B7A71841802468F32937A2520DEE /* moonmenu_item_dark_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993ED7B472EA4F8CA4EB039F31A1AE57 /* moonmenu_item_dark_1@2x.png */; };
+		CA0386F7AE7A68FFF53835D0C6195806 /* moonmenu_item_dark_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F56B9E902A71CECCAF075582CECAB3D /* moonmenu_item_dark_7@2x.png */; };
+		CBEFC05F4137411112E172CFF28240E2 /* moonmenu_item_dark_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDF44B9D8BE149ADB0FE276513AC8CA /* moonmenu_item_dark_8@2x.png */; };
+		D2E4C7C10670C024DA410DE5805B364A /* moonmenu_item_dark_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 808A4DC1BA3CFD14371A88B568B05C24 /* moonmenu_item_dark_9@2x.png */; };
+		D9A05B2BAA96A0CA711BF1523B5EF922 /* MOONMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331FB1C7943CD6013520FCC5793EE30 /* MOONMenu.swift */; };
+		E0CF8EC6A2065AD1A8811DE616652E2B /* moonmenu_item_dark_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABE7F2B3D3121301F23710AB6A55A33F /* moonmenu_item_dark_11@2x.png */; };
+		E7FD09B0CC80E27700B3EB6285C5853A /* MOONMenuRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394802C97B341DC28B2A431B31929EAD /* MOONMenuRootController.swift */; };
+		FD24E70C7A511E6E35E729037A5D5C73 /* moonmenu_item_dark_15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 877EE5DFD34DBBFC4807A94F9C9A6239 /* moonmenu_item_dark_15@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC656F4D471F84F95595B331542301B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F0A47DE19684F9885242F5883BFE29;
+			remoteInfo = MOONMenu;
+		};
+		E67AB947E0B2A9B3B53C0AC042C7B2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E12B23AF085542986DBB50C1862299;
+			remoteInfo = "MOONMenu-MOONMenuSkin";
+		};
+		FD81E6A30663C79D9302C0FC8862FD43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0529830F5B4E6C131338BF854A0B3F;
+			remoteInfo = "Pods-MOONMenu_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0454FC8F511B83475D0B9B6231367AB7 /* moonmenu_item_dark_10@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_10@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_10@2x.png"; sourceTree = "<group>"; };
+		0D9B15DE48ADEC6D48A8322C2EEC2B3A /* moonmenu_item_dark_17@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_17@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_17@2x.png"; sourceTree = "<group>"; };
+		0DFD568DB633C6DB19388631F836D9A6 /* Pods-MOONMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOONMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		102A75393FCD88C54D7A16ACCFB43470 /* moonmenu_item_dark_16@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_16@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_16@2x.png"; sourceTree = "<group>"; };
+		141954C2C4AF390A61E488E10E38343F /* moonmenu_item_dark_14@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_14@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_14@2x.png"; sourceTree = "<group>"; };
+		2331FB1C7943CD6013520FCC5793EE30 /* MOONMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOONMenu.swift; path = MOONMenu/Classes/MOONMenu.swift; sourceTree = "<group>"; };
+		261543BE2A112F35C9EC7BEE05A1DF8F /* Pods-MOONMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOONMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AEE90BB2DDB4EC7E091341FAAB7C81B /* ResourceBundle-MOONMenuSkin-MOONMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MOONMenuSkin-MOONMenu-Info.plist"; sourceTree = "<group>"; };
+		2C567068534C10EBBE20C00B3F6B7AA8 /* MOONMenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOONMenuHelper.swift; path = MOONMenu/Classes/MOONMenuHelper.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3257DE39CF97C028077470B13D6EA54A /* moonmenu_item_dark_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_5@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_5@2x.png"; sourceTree = "<group>"; };
+		34EF03FC132E3C34DD5C30B9B3430D3F /* MOONMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOONMenu-umbrella.h"; sourceTree = "<group>"; };
+		36F639C22B028B204A483EE2C4E0326F /* moonmenu_item_dark_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_3@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_3@2x.png"; sourceTree = "<group>"; };
+		383A98F91DAC40185A84C72B6F2C650E /* Pods-MOONMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MOONMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		394802C97B341DC28B2A431B31929EAD /* MOONMenuRootController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOONMenuRootController.swift; path = MOONMenu/Classes/MOONMenuRootController.swift; sourceTree = "<group>"; };
+		3E05E1464B96D427D10B8CBF966CEC9C /* moonmenu_item_dark_18@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_18@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_18@2x.png"; sourceTree = "<group>"; };
+		432AF56B7CECBCC11BE385EB89C3C30A /* Pods-MOONMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOONMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45623C05FA4A8774D730948477FD67D8 /* Pods-MOONMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOONMenu_Example.modulemap"; sourceTree = "<group>"; };
+		457014B84DDA4BCEB9CED058A83117EA /* MOONMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MOONMenu-Info.plist"; sourceTree = "<group>"; };
+		45FCEA14605DC73592E03CDB262B413D /* moonmenu_dark_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_dark_more@2x.png"; path = "MOONMenu/Assets/moonmenu_dark_more@2x.png"; sourceTree = "<group>"; };
+		4865A0EBCF86628B9796E904689C2D10 /* MOONMenuBasic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOONMenuBasic.swift; path = MOONMenu/Classes/MOONMenuBasic.swift; sourceTree = "<group>"; };
+		4AA2FA58E9A1383D126B5A1E58F5C5FA /* MOONMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MOONMenu-prefix.pch"; sourceTree = "<group>"; };
+		55761120107F2D23B812D2EF2717F23E /* Pods-MOONMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOONMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5BE889CB91F523444429E9FC61BB52D4 /* moonmenu_item_dark_12@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_12@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_12@2x.png"; sourceTree = "<group>"; };
+		5F56B9E902A71CECCAF075582CECAB3D /* moonmenu_item_dark_7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_7@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_7@2x.png"; sourceTree = "<group>"; };
+		610B3200DB66A7FCC73F9ADDFFCCA876 /* MOONMenuSkin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MOONMenuSkin.bundle; path = "MOONMenu-MOONMenuSkin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643CF278CDFA132E2BBFE282A893C1F9 /* MOONMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MOONMenu-dummy.m"; sourceTree = "<group>"; };
+		6719B95A0F0BFC07FDE5F307344E7386 /* Pods-MOONMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOONMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C9C5F538124079D6D16FE70AF5038D7 /* MOONMenuDisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MOONMenuDisplay.swift; path = MOONMenu/Classes/MOONMenuDisplay.swift; sourceTree = "<group>"; };
+		71E7DF9FE3B4F2D78282A419AF1F719E /* moonmenu_item_dark_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_4@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_4@2x.png"; sourceTree = "<group>"; };
+		785889E1CDFCC62018339A0816E89E75 /* MOONMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MOONMenu.modulemap; sourceTree = "<group>"; };
+		7BFFF0794D2E4AEB0AC7A8D09B551C5B /* Pods-MOONMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOONMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		808A4DC1BA3CFD14371A88B568B05C24 /* moonmenu_item_dark_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_9@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_9@2x.png"; sourceTree = "<group>"; };
+		877EE5DFD34DBBFC4807A94F9C9A6239 /* moonmenu_item_dark_15@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_15@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_15@2x.png"; sourceTree = "<group>"; };
+		8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOONMenu.xcconfig; sourceTree = "<group>"; };
+		92BE7ED78973DA4DE3FC1B693B6B382F /* moonmenu_item_dark_13@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_13@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_13@2x.png"; sourceTree = "<group>"; };
+		9316CF8DBF9A9E07E80D9D9FAAD377F7 /* Pods_MOONMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOONMenu_Example.framework; path = "Pods-MOONMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993ED7B472EA4F8CA4EB039F31A1AE57 /* moonmenu_item_dark_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_1@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_1@2x.png"; sourceTree = "<group>"; };
+		9A8AF4847B8BCEE99E9665DFBEF8DB58 /* moonmenu_item_dark_0@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_0@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_0@2x.png"; sourceTree = "<group>"; };
+		9BE4E76E81EECC25B890B4147B0A1566 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5BCF3FB33ACF4906CCD745FB62FB244 /* Pods-MOONMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOONMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		A99C54A7BCCFE305E5B1671E1B2400A1 /* Pods-MOONMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOONMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAD774483124CEBC81669F74E2336205 /* Pods-MOONMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MOONMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		AAE7AD94593576DB9C1E67FCF1847AAF /* Pods-MOONMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MOONMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		ABE7F2B3D3121301F23710AB6A55A33F /* moonmenu_item_dark_11@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_11@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_11@2x.png"; sourceTree = "<group>"; };
+		AD992CBA4F68567D7E67E41E6B842DA8 /* moonmenu_item_dark_6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_6@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_6@2x.png"; sourceTree = "<group>"; };
+		B0955DB51305FCCC9F6F62C83C41BE83 /* moonShadow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = moonShadow.png; path = MOONMenu/Assets/moonShadow.png; sourceTree = "<group>"; };
+		BCDF44B9D8BE149ADB0FE276513AC8CA /* moonmenu_item_dark_8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_8@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_8@2x.png"; sourceTree = "<group>"; };
+		BD2416C041B9AA300D3431B9B83C35F5 /* Pods-MOONMenu_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOONMenu_Example-Info.plist"; sourceTree = "<group>"; };
+		BF8204023E46888CFFD20160461653C2 /* Pods_MOONMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MOONMenu_Tests.framework; path = "Pods-MOONMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D59E5A65A671234D9561DACD9E65B4 /* MOONMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MOONMenu.framework; path = MOONMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25F4B1F5980C39A93891A0004DF3C38 /* Pods-MOONMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MOONMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D278F4479A3A2E264EA21BB774B95E4B /* MOONMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MOONMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D76279FA8BC0F70ECAD15496848D9A00 /* Pods-MOONMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MOONMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A5AE1D8659ADC4649620AEF52EC5E5 /* moonmenu_dark_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_dark_back@2x.png"; path = "MOONMenu/Assets/moonmenu_dark_back@2x.png"; sourceTree = "<group>"; };
+		E1E032A6C489CB911794D6DE0B178BFD /* moonmenu_item_dark_19@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_19@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_19@2x.png"; sourceTree = "<group>"; };
+		F1FD36F6292145968B28A7B1882DE2D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F474F7363F366EFF7A54DB959C16B94A /* Pods-MOONMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MOONMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		F9E53901FAC3FF3D68CEFD0111EA09B1 /* moonmenu_item_dark_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "moonmenu_item_dark_2@2x.png"; path = "MOONMenu/Assets/moonmenu_item_dark_2@2x.png"; sourceTree = "<group>"; };
+		FF7E258586B49416ACC33E54D011A4CE /* Pods-MOONMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MOONMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DBCA7CE091564E54605B411DF580E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12C5CE6CD87D796F3056500F0EBD574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A169F77898D3E66C46433F4970ECADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DE8D88CABA593438EEF89D00CAE386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4152BB0F904BBB9BD3EA8620D9BB552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D59DA2D4A5AA351FEBFE9FD5DA3B4C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA19A742159C798DDD985BDE8AF321B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E9EF53BEC082E02821BB918D2BD1A8 /* Pods-MOONMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				45623C05FA4A8774D730948477FD67D8 /* Pods-MOONMenu_Example.modulemap */,
+				261543BE2A112F35C9EC7BEE05A1DF8F /* Pods-MOONMenu_Example-acknowledgements.markdown */,
+				FF7E258586B49416ACC33E54D011A4CE /* Pods-MOONMenu_Example-acknowledgements.plist */,
+				AAE7AD94593576DB9C1E67FCF1847AAF /* Pods-MOONMenu_Example-dummy.m */,
+				383A98F91DAC40185A84C72B6F2C650E /* Pods-MOONMenu_Example-frameworks.sh */,
+				BD2416C041B9AA300D3431B9B83C35F5 /* Pods-MOONMenu_Example-Info.plist */,
+				F474F7363F366EFF7A54DB959C16B94A /* Pods-MOONMenu_Example-umbrella.h */,
+				D76279FA8BC0F70ECAD15496848D9A00 /* Pods-MOONMenu_Example.debug.xcconfig */,
+				0DFD568DB633C6DB19388631F836D9A6 /* Pods-MOONMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-MOONMenu_Example";
+			path = "Target Support Files/Pods-MOONMenu_Example";
+			sourceTree = "<group>";
+		};
+		38ABB3C1AACEAD23475B9C88802D0FEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				785889E1CDFCC62018339A0816E89E75 /* MOONMenu.modulemap */,
+				8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */,
+				643CF278CDFA132E2BBFE282A893C1F9 /* MOONMenu-dummy.m */,
+				457014B84DDA4BCEB9CED058A83117EA /* MOONMenu-Info.plist */,
+				4AA2FA58E9A1383D126B5A1E58F5C5FA /* MOONMenu-prefix.pch */,
+				34EF03FC132E3C34DD5C30B9B3430D3F /* MOONMenu-umbrella.h */,
+				2AEE90BB2DDB4EC7E091341FAAB7C81B /* ResourceBundle-MOONMenuSkin-MOONMenu-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MOONMenu";
+			sourceTree = "<group>";
+		};
+		64F4018208F14B29B532E4EC5C3B8D65 /* Pods-MOONMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD774483124CEBC81669F74E2336205 /* Pods-MOONMenu_Tests.modulemap */,
+				D25F4B1F5980C39A93891A0004DF3C38 /* Pods-MOONMenu_Tests-acknowledgements.markdown */,
+				A99C54A7BCCFE305E5B1671E1B2400A1 /* Pods-MOONMenu_Tests-acknowledgements.plist */,
+				6719B95A0F0BFC07FDE5F307344E7386 /* Pods-MOONMenu_Tests-dummy.m */,
+				A5BCF3FB33ACF4906CCD745FB62FB244 /* Pods-MOONMenu_Tests-Info.plist */,
+				7BFFF0794D2E4AEB0AC7A8D09B551C5B /* Pods-MOONMenu_Tests-umbrella.h */,
+				432AF56B7CECBCC11BE385EB89C3C30A /* Pods-MOONMenu_Tests.debug.xcconfig */,
+				55761120107F2D23B812D2EF2717F23E /* Pods-MOONMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-MOONMenu_Tests";
+			path = "Target Support Files/Pods-MOONMenu_Tests";
+			sourceTree = "<group>";
+		};
+		861E3D017F3FB4EA7BEB29C119BA1F2B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1598C1753096705F46A87947C25BB3C /* MOONMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		871A0094DD90A84A63E4930134E97B1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E9EF53BEC082E02821BB918D2BD1A8 /* Pods-MOONMenu_Example */,
+				64F4018208F14B29B532E4EC5C3B8D65 /* Pods-MOONMenu_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1598C1753096705F46A87947C25BB3C /* MOONMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2331FB1C7943CD6013520FCC5793EE30 /* MOONMenu.swift */,
+				4865A0EBCF86628B9796E904689C2D10 /* MOONMenuBasic.swift */,
+				6C9C5F538124079D6D16FE70AF5038D7 /* MOONMenuDisplay.swift */,
+				2C567068534C10EBBE20C00B3F6B7AA8 /* MOONMenuHelper.swift */,
+				394802C97B341DC28B2A431B31929EAD /* MOONMenuRootController.swift */,
+				D9D4B32ED8DF6F438995BDE4634C7397 /* Pod */,
+				F9D340889459C04F43620887480188C6 /* Resources */,
+				38ABB3C1AACEAD23475B9C88802D0FEC /* Support Files */,
+			);
+			name = MOONMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				861E3D017F3FB4EA7BEB29C119BA1F2B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CF34E77D7FA434F5A500FDB390C8C332 /* Products */,
+				871A0094DD90A84A63E4930134E97B1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF34E77D7FA434F5A500FDB390C8C332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D59E5A65A671234D9561DACD9E65B4 /* MOONMenu.framework */,
+				610B3200DB66A7FCC73F9ADDFFCCA876 /* MOONMenuSkin.bundle */,
+				9316CF8DBF9A9E07E80D9D9FAAD377F7 /* Pods_MOONMenu_Example.framework */,
+				BF8204023E46888CFFD20160461653C2 /* Pods_MOONMenu_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D4B32ED8DF6F438995BDE4634C7397 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9BE4E76E81EECC25B890B4147B0A1566 /* LICENSE */,
+				D278F4479A3A2E264EA21BB774B95E4B /* MOONMenu.podspec */,
+				F1FD36F6292145968B28A7B1882DE2D0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9D340889459C04F43620887480188C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5AE1D8659ADC4649620AEF52EC5E5 /* moonmenu_dark_back@2x.png */,
+				45FCEA14605DC73592E03CDB262B413D /* moonmenu_dark_more@2x.png */,
+				9A8AF4847B8BCEE99E9665DFBEF8DB58 /* moonmenu_item_dark_0@2x.png */,
+				0454FC8F511B83475D0B9B6231367AB7 /* moonmenu_item_dark_10@2x.png */,
+				ABE7F2B3D3121301F23710AB6A55A33F /* moonmenu_item_dark_11@2x.png */,
+				5BE889CB91F523444429E9FC61BB52D4 /* moonmenu_item_dark_12@2x.png */,
+				92BE7ED78973DA4DE3FC1B693B6B382F /* moonmenu_item_dark_13@2x.png */,
+				141954C2C4AF390A61E488E10E38343F /* moonmenu_item_dark_14@2x.png */,
+				877EE5DFD34DBBFC4807A94F9C9A6239 /* moonmenu_item_dark_15@2x.png */,
+				102A75393FCD88C54D7A16ACCFB43470 /* moonmenu_item_dark_16@2x.png */,
+				0D9B15DE48ADEC6D48A8322C2EEC2B3A /* moonmenu_item_dark_17@2x.png */,
+				3E05E1464B96D427D10B8CBF966CEC9C /* moonmenu_item_dark_18@2x.png */,
+				E1E032A6C489CB911794D6DE0B178BFD /* moonmenu_item_dark_19@2x.png */,
+				993ED7B472EA4F8CA4EB039F31A1AE57 /* moonmenu_item_dark_1@2x.png */,
+				F9E53901FAC3FF3D68CEFD0111EA09B1 /* moonmenu_item_dark_2@2x.png */,
+				36F639C22B028B204A483EE2C4E0326F /* moonmenu_item_dark_3@2x.png */,
+				71E7DF9FE3B4F2D78282A419AF1F719E /* moonmenu_item_dark_4@2x.png */,
+				3257DE39CF97C028077470B13D6EA54A /* moonmenu_item_dark_5@2x.png */,
+				AD992CBA4F68567D7E67E41E6B842DA8 /* moonmenu_item_dark_6@2x.png */,
+				5F56B9E902A71CECCAF075582CECAB3D /* moonmenu_item_dark_7@2x.png */,
+				BCDF44B9D8BE149ADB0FE276513AC8CA /* moonmenu_item_dark_8@2x.png */,
+				808A4DC1BA3CFD14371A88B568B05C24 /* moonmenu_item_dark_9@2x.png */,
+				B0955DB51305FCCC9F6F62C83C41BE83 /* moonShadow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46DF8AF021A032641CC57EA7B97BE374 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECFB6E68B986C4FD56BC38F1765E95B /* Pods-MOONMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D20C3DBC721DE4ADDF9D18F1779D119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D702D641CAB8DEA7FB52A572C54E465 /* Pods-MOONMenu_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4055ECDE73875B7674CF8B9488DE65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6561FC549F50F65EAD6F94EA99378B53 /* MOONMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76A1635E86B5506FD784400B59D5C314 /* Pods-MOONMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E75EA753DCB9490DFCC4E76537AF8D5 /* Build configuration list for PBXNativeTarget "Pods-MOONMenu_Tests" */;
+			buildPhases = (
+				46DF8AF021A032641CC57EA7B97BE374 /* Headers */,
+				F41E409CC8543121B0CEE511A440E3BA /* Sources */,
+				D4152BB0F904BBB9BD3EA8620D9BB552 /* Frameworks */,
+				88CB8A04ED7041E4D4905C1565FA7330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EC32A954CE0D92259E2BB9C0DE4A7F /* PBXTargetDependency */,
+			);
+			name = "Pods-MOONMenu_Tests";
+			productName = "Pods-MOONMenu_Tests";
+			productReference = BF8204023E46888CFFD20160461653C2 /* Pods_MOONMenu_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76E12B23AF085542986DBB50C1862299 /* MOONMenu-MOONMenuSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB0B749840054C0357196AD44D7AEE5 /* Build configuration list for PBXNativeTarget "MOONMenu-MOONMenuSkin" */;
+			buildPhases = (
+				3B066580305F651E044CD838EB70845D /* Sources */,
+				DA19A742159C798DDD985BDE8AF321B2 /* Frameworks */,
+				8BA5EE2D322BCCD9D876E2D0C5D3CB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOONMenu-MOONMenuSkin";
+			productName = "MOONMenu-MOONMenuSkin";
+			productReference = 610B3200DB66A7FCC73F9ADDFFCCA876 /* MOONMenuSkin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AA0529830F5B4E6C131338BF854A0B3F /* Pods-MOONMenu_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686EFEAEE75069E38E4C1D3F8F139111 /* Build configuration list for PBXNativeTarget "Pods-MOONMenu_Example" */;
+			buildPhases = (
+				4D20C3DBC721DE4ADDF9D18F1779D119 /* Headers */,
+				D6A886A4F7D5CC99549ABA67AC70703D /* Sources */,
+				A169F77898D3E66C46433F4970ECADC2 /* Frameworks */,
+				5E57A6958AF3034EA534F46BE8649377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D501A3AD1C14B81CEAB2ACBAD5BB2A38 /* PBXTargetDependency */,
+			);
+			name = "Pods-MOONMenu_Example";
+			productName = "Pods-MOONMenu_Example";
+			productReference = 9316CF8DBF9A9E07E80D9D9FAAD377F7 /* Pods_MOONMenu_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6F0A47DE19684F9885242F5883BFE29 /* MOONMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72D1FF7BD4C7704F959BD760E9810DB /* Build configuration list for PBXNativeTarget "MOONMenu" */;
+			buildPhases = (
+				CA4055ECDE73875B7674CF8B9488DE65 /* Headers */,
+				7B44DD4B3AA080F196D08A21E5E4C12D /* Sources */,
+				7DBCA7CE091564E54605B411DF580E4D /* Frameworks */,
+				A203A7314CC2ECD92B376BB2625AFAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7950F18814E60EED4F1688251A7B8CB /* PBXTargetDependency */,
+			);
+			name = MOONMenu;
+			productName = MOONMenu;
+			productReference = C0D59E5A65A671234D9561DACD9E65B4 /* MOONMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CF34E77D7FA434F5A500FDB390C8C332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F0A47DE19684F9885242F5883BFE29 /* MOONMenu */,
+				76E12B23AF085542986DBB50C1862299 /* MOONMenu-MOONMenuSkin */,
+				AA0529830F5B4E6C131338BF854A0B3F /* Pods-MOONMenu_Example */,
+				76A1635E86B5506FD784400B59D5C314 /* Pods-MOONMenu_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E57A6958AF3034EA534F46BE8649377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88CB8A04ED7041E4D4905C1565FA7330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA5EE2D322BCCD9D876E2D0C5D3CB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452CFC0F0CB4C73B8F67FC794E60CC45 /* moonmenu_dark_back@2x.png in Resources */,
+				6E546F8DB518EB38BBA38759F3727535 /* moonmenu_dark_more@2x.png in Resources */,
+				31750AC80FEDC7F0A522F7B4A1789D4F /* moonmenu_item_dark_0@2x.png in Resources */,
+				59D03E5A93F1DDACE3B9E15BFF656F2F /* moonmenu_item_dark_10@2x.png in Resources */,
+				E0CF8EC6A2065AD1A8811DE616652E2B /* moonmenu_item_dark_11@2x.png in Resources */,
+				67D16C7453FAD6D6373E2222FF3CD1E0 /* moonmenu_item_dark_12@2x.png in Resources */,
+				6B23A587E2628C28EFA86D64ABEECCCF /* moonmenu_item_dark_13@2x.png in Resources */,
+				7E577983FB5F4D5DFA1FEDEBB993BA34 /* moonmenu_item_dark_14@2x.png in Resources */,
+				FD24E70C7A511E6E35E729037A5D5C73 /* moonmenu_item_dark_15@2x.png in Resources */,
+				9BA0A345AF1F90CEDE1D8DAAAB225544 /* moonmenu_item_dark_16@2x.png in Resources */,
+				B73013F811019200D4A0A0DEECCB7E9D /* moonmenu_item_dark_17@2x.png in Resources */,
+				0E006EC28DBCEFF38B0EDD4A5BFCB42C /* moonmenu_item_dark_18@2x.png in Resources */,
+				423D5219F1509874D149623201AF42C1 /* moonmenu_item_dark_19@2x.png in Resources */,
+				C9E1B7A71841802468F32937A2520DEE /* moonmenu_item_dark_1@2x.png in Resources */,
+				4E49BC491DED853387BD26195E4D87F2 /* moonmenu_item_dark_2@2x.png in Resources */,
+				AA82EF884FA5CF6C0F3038A95927EB9A /* moonmenu_item_dark_3@2x.png in Resources */,
+				55CF7A731D3CC839FE6B68847B973584 /* moonmenu_item_dark_4@2x.png in Resources */,
+				01C23E9806E907C0304D74589A6272C8 /* moonmenu_item_dark_5@2x.png in Resources */,
+				9890EAADC83FF43A9F2327C7C566DE8F /* moonmenu_item_dark_6@2x.png in Resources */,
+				CA0386F7AE7A68FFF53835D0C6195806 /* moonmenu_item_dark_7@2x.png in Resources */,
+				CBEFC05F4137411112E172CFF28240E2 /* moonmenu_item_dark_8@2x.png in Resources */,
+				D2E4C7C10670C024DA410DE5805B364A /* moonmenu_item_dark_9@2x.png in Resources */,
+				76A068796E1C496B6B6ED49A7739CFCD /* moonShadow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A203A7314CC2ECD92B376BB2625AFAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED34CE1262E08A5439E033C26732A72 /* MOONMenuSkin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B066580305F651E044CD838EB70845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B44DD4B3AA080F196D08A21E5E4C12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F490A8AF19D6134C1C30D1D3EC03A1 /* MOONMenu-dummy.m in Sources */,
+				D9A05B2BAA96A0CA711BF1523B5EF922 /* MOONMenu.swift in Sources */,
+				70B2ED8AB9747EEE87D9FA38FFE66FEF /* MOONMenuBasic.swift in Sources */,
+				642B787B2ADD2123FD5A5D2758B0E773 /* MOONMenuDisplay.swift in Sources */,
+				522DC40D072F59DE225DA66355292290 /* MOONMenuHelper.swift in Sources */,
+				E7FD09B0CC80E27700B3EB6285C5853A /* MOONMenuRootController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A886A4F7D5CC99549ABA67AC70703D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D77A03EAFB043ECF7B4E6C4CF97CB6C /* Pods-MOONMenu_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E409CC8543121B0CEE511A440E3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCB82F08A5DEB79171D5D6F7A855FA5 /* Pods-MOONMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EC32A954CE0D92259E2BB9C0DE4A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MOONMenu_Example";
+			target = AA0529830F5B4E6C131338BF854A0B3F /* Pods-MOONMenu_Example */;
+			targetProxy = FD81E6A30663C79D9302C0FC8862FD43 /* PBXContainerItemProxy */;
+		};
+		D501A3AD1C14B81CEAB2ACBAD5BB2A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOONMenu;
+			target = E6F0A47DE19684F9885242F5883BFE29 /* MOONMenu */;
+			targetProxy = 4AC656F4D471F84F95595B331542301B /* PBXContainerItemProxy */;
+		};
+		D7950F18814E60EED4F1688251A7B8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MOONMenu-MOONMenuSkin";
+			target = 76E12B23AF085542986DBB50C1862299 /* MOONMenu-MOONMenuSkin */;
+			targetProxy = E67AB947E0B2A9B3B53C0AC042C7B2CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		303F0D9F73EDA5B6FCD5EFE792CB5359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55761120107F2D23B812D2EF2717F23E /* Pods-MOONMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOONMenu_Tests/Pods-MOONMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOONMenu_Tests/Pods-MOONMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3904775422A4F5893B96B23F91BAB18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432AF56B7CECBCC11BE385EB89C3C30A /* Pods-MOONMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOONMenu_Tests/Pods-MOONMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOONMenu_Tests/Pods-MOONMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C0AAE7E47C10A0BBB7108DD32F19B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD568DB633C6DB19388631F836D9A6 /* Pods-MOONMenu_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOONMenu_Example/Pods-MOONMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOONMenu_Example/Pods-MOONMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CD3AB5B3854160F7919B51D6E752D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76279FA8BC0F70ECAD15496848D9A00 /* Pods-MOONMenu_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MOONMenu_Example/Pods-MOONMenu_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MOONMenu_Example/Pods-MOONMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60E313622212300B071196EBC65EC425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MOONMenu";
+				IBSC_MODULE = MOONMenu;
+				INFOPLIST_FILE = "Target Support Files/MOONMenu/ResourceBundle-MOONMenuSkin-MOONMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MOONMenuSkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		950628EBAB5E8CDEEAB86F17AF3D13C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOONMenu/MOONMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOONMenu/MOONMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MOONMenu/MOONMenu.modulemap";
+				PRODUCT_MODULE_NAME = MOONMenu;
+				PRODUCT_NAME = MOONMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F90402913758586D7117FAFA1CFE0E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MOONMenu";
+				IBSC_MODULE = MOONMenu;
+				INFOPLIST_FILE = "Target Support Files/MOONMenu/ResourceBundle-MOONMenuSkin-MOONMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = MOONMenuSkin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FBC414105F5D32C9C5D9FFF24805BBBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F60526302E7498265333B390B715E23 /* MOONMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MOONMenu/MOONMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MOONMenu/MOONMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MOONMenu/MOONMenu.modulemap";
+				PRODUCT_MODULE_NAME = MOONMenu;
+				PRODUCT_NAME = MOONMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB0B749840054C0357196AD44D7AEE5 /* Build configuration list for PBXNativeTarget "MOONMenu-MOONMenuSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90402913758586D7117FAFA1CFE0E3B /* Debug */,
+				60E313622212300B071196EBC65EC425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686EFEAEE75069E38E4C1D3F8F139111 /* Build configuration list for PBXNativeTarget "Pods-MOONMenu_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD3AB5B3854160F7919B51D6E752D1A /* Debug */,
+				3C0AAE7E47C10A0BBB7108DD32F19B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E75EA753DCB9490DFCC4E76537AF8D5 /* Build configuration list for PBXNativeTarget "Pods-MOONMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3904775422A4F5893B96B23F91BAB18B /* Debug */,
+				303F0D9F73EDA5B6FCD5EFE792CB5359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72D1FF7BD4C7704F959BD760E9810DB /* Build configuration list for PBXNativeTarget "MOONMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950628EBAB5E8CDEEAB86F17AF3D13C5 /* Debug */,
+				FBC414105F5D32C9C5D9FFF24805BBBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
