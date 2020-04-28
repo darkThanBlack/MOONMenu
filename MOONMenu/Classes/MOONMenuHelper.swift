@@ -10,6 +10,8 @@ import UIKit
 
 class MOONMenuHelper {
     
+    static let kMOONMenuCloseKey = "kMOONMenuCloseKey"
+    
     static func queryImage(named: String) -> UIImage? {
         let baseBundle = Bundle(for: MOONMenuHelper.self)
         guard let url = baseBundle.url(forResource: "MOONMenuSkin", withExtension: "bundle"), let bundle = Bundle(url: url) else {

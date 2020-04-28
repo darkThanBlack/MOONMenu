@@ -43,7 +43,7 @@ public class MOONMenu: NSObject {
     private lazy var window: Window = {
         let window = Window(frame: UIScreen.main.bounds)
         window.windowLevel = .alert
-        window.rootViewController = UINavigationController.init(rootViewController: self.rootVC)
+        window.rootViewController = self.nav
         window.noResponseView = self.rootVC.view
         return window
     }()
@@ -53,7 +53,7 @@ public class MOONMenu: NSObject {
         return rootVC
     }()
     
-    lazy var nav: UINavigationController = {
+    public lazy var nav: UINavigationController = {
         return UINavigationController(rootViewController: self.rootVC)
     }()
     

@@ -30,6 +30,8 @@ extension MOONMenu.RootController {
                 }
             }
         }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(needCloseMenu), name: NSNotification.Name(rawValue: MOONMenuHelper.kMOONMenuCloseKey), object: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,6 +42,10 @@ extension MOONMenu.RootController {
     
     override func viewDidLayoutSubviews() {
         closeView.frame = view.bounds
+    }
+    
+    @objc private func needCloseMenu() {
+        basicMenu.updateMunuState()
     }
     
 }

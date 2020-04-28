@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MOONMenu'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A bundle of debug UI that looks like iOS system AssistiveTouch.'
 
 # This description is used to generate tags and improve search results.

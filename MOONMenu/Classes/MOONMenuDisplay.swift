@@ -40,10 +40,13 @@ extension MOONMenu.Display {
             let item = MOONMenu.Item(style: .item(title: option.title))
             item.configItem(skin: option.skin)
             item.bindItem {
+                option.action?()
+                
                 if option.subOption.count > 0 {
                     self.openSubMenu(options: option.subOption)
+                } else {
+                    NotificationCenter.default.post(name: NSNotification.Name(rawValue: MOONMenuHelper.kMOONMenuCloseKey), object: nil, userInfo: nil)
                 }
-                option.action?()
             }
             items.append(item)
         }

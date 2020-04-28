@@ -23,8 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let info = MOONMenu.Config.Option()
         info.title = "当前信息"
         info.action = {
-            
+            MOONMenu.core.nav.pushViewController(DebugViewController(), animated: true)
         }
+        
+        let sub1 = MOONMenu.Config.Option()
+        sub1.title = "subs"
+        info.subOption.append(sub1)
+        
         options.append(info)
         
         MOONMenu.core.config.options = options
