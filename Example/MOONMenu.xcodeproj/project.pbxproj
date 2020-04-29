@@ -15,7 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		782F70485CE82432FEA51915 /* Pods_MOONMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9488737A5EC616B997024FD7 /* Pods_MOONMenu_Tests.framework */; };
-		8852DD7324583442000957B3 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7224583442000957B3 /* DebugViewController.swift */; };
+		8852DD7824591AA4000957B3 /* XMDebugNetworkLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */; };
+		8852DD7A24591B4E000957B3 /* ExampleDebugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7924591B4E000957B3 /* ExampleDebugs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61BD29ACF94DD2953B56C1B9 /* MOONMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MOONMenu.podspec; path = ../MOONMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8852DD7224583442000957B3 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMDebugNetworkLogs.swift; sourceTree = "<group>"; };
+		8852DD7924591B4E000957B3 /* ExampleDebugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDebugs.swift; sourceTree = "<group>"; };
 		9488737A5EC616B997024FD7 /* Pods_MOONMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOONMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D59312DCA20EA9CA143C674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9DAA7630703FB3C316DCED2 /* Pods_MOONMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOONMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +97,9 @@
 		607FACD21AFB9204008FA782 /* Example for MOONMenu */ = {
 			isa = PBXGroup;
 			children = (
+				8852DD7524591A60000957B3 /* Debug */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				8852DD7224583442000957B3 /* DebugViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -149,6 +151,23 @@
 				9488737A5EC616B997024FD7 /* Pods_MOONMenu_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8852DD7524591A60000957B3 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				8852DD7924591B4E000957B3 /* ExampleDebugs.swift */,
+				8852DD7624591A8D000957B3 /* NetworkLog */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		8852DD7624591A8D000957B3 /* NetworkLog */ = {
+			isa = PBXGroup;
+			children = (
+				8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */,
+			);
+			path = NetworkLog;
 			sourceTree = "<group>";
 		};
 		A714C3B03B1D1758FF125264 /* Pods */ = {
@@ -317,10 +336,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MOONMenu_Example/Pods-MOONMenu_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MOONMenu/MOONMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOONMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -334,9 +355,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8852DD7324583442000957B3 /* DebugViewController.swift in Sources */,
+				8852DD7A24591B4E000957B3 /* ExampleDebugs.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8852DD7824591AA4000957B3 /* XMDebugNetworkLogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

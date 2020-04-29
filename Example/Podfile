@@ -1,9 +1,14 @@
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '10.0'
 
 target 'MOONMenu_Example' do
   pod 'MOONMenu', :path => '../'
+  
+  pod 'SnapKit'
 
   target 'MOONMenu_Tests' do
     inherit! :search_paths

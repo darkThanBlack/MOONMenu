@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MOONMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,25 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        MOONMenu.core.config.debuging = false
-        
-        var options: [MOONMenu.Config.Option] = []
-        
-        let info = MOONMenu.Config.Option()
-        info.title = "当前信息"
-        info.action = {
-            MOONMenu.core.nav.pushViewController(DebugViewController(), animated: true)
-        }
-        
-        let sub1 = MOONMenu.Config.Option()
-        sub1.title = "subs"
-        info.subOption.append(sub1)
-        
-        options.append(info)
-        
-        MOONMenu.core.config.options = options
-        
-        MOONMenu.core.start()
+//        #if DEBUG
+        ExampleDebugs.core.appendNetworkLogs()
+        ExampleDebugs.core.loadDebugTools()
+//        #endif
         
         return true
     }

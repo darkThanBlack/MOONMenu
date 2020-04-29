@@ -1,8 +1,8 @@
 {
   "name": "MOONMenu",
-  "version": "0.1.0",
-  "summary": "A short description of MOONMenu.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "A bundle of debug UI that looks like iOS system AssistiveTouch.",
+  "description": "A bundle of debug UI that looks like iOS system AssistiveTouch.\n一组仿照系统“便捷访问”浮窗按钮样式设计的 UI 控件，可以用于代码调试。",
   "homepage": "https://github.com/darkThanBlack/MOONMenu",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/darkThanBlack/MOONMenu.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "10.0"

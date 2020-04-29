@@ -1,16 +1,23 @@
 PODS:
-  - MOONMenu (0.1.0)
+  - MOONMenu (0.2.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - MOONMenu (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   MOONMenu:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MOONMenu: 3f513d462329df00c84d02f900c614cf616fab86
+  MOONMenu: b0c92bc107b07fe32e68d5a73fe122d6eab5d95f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 7bc0ae09f2113c5a55d4379a09a5530dfd267ed7
+PODFILE CHECKSUM: 0045e8a7142e592c381ae986cfffc905f78f778e
 
 COCOAPODS: 1.8.4
