@@ -9,17 +9,17 @@
 import UIKit
 import SnapKit
 
-///XMDebugNetworkLogsCell 数据源
-protocol XMDebugNetworkLogsCellDataSource {
-    var state: XMDebugNetworkLogs.Request.State { get }
+///XMNetworkLogsCell 数据源
+protocol XMNetworkLogsCellDataSource {
+    var state: XMNetworkLogs.Request.State { get }
     var title: String? { get }
     var detail: String? { get }
     var time: String? { get }
 }
 
-class XMDebugNetworkLogs {
+class XMNetworkLogs {
     
-    class Request: Codable, XMDebugNetworkLogsCellDataSource {
+    class Request: Codable, XMNetworkLogsCellDataSource {
         var title: String? { return path }
         var detail: String? { return traceId ?? body ?? code }
         
@@ -44,11 +44,11 @@ class XMDebugNetworkLogs {
     }
     var logs: [Request] = []
     
-    func canQueryRequestLog(index: Int) -> Bool {
+    func canQueryCellInfo(index: Int) -> Bool {
         return index < logs.count ? true : false
     }
     
-    @objc(XMDebugNetworkLogsViewController)
+    @objc(XMNetworkLogsViewController)
     class ViewController: UIViewController {
         
         //MARK: Interface
@@ -94,18 +94,18 @@ class XMDebugNetworkLogs {
             tableView.delegate = self
             tableView.dataSource = self
             tableView.separatorStyle = .singleLine
-            tableView.register(Cell.self, forCellReuseIdentifier: "XMDebugNetworkLogs.Cell")
+            tableView.register(Cell.self, forCellReuseIdentifier: "XMNetworkLogs.Cell")
             return tableView
         }()
         
     }
     
-    @objc(XMDebugNetworkLogsCell)
+    @objc(XMNetworkLogsCell)
     class Cell: UITableViewCell {
         
         //MARK: Interface
         
-        func configCell(dataSource: XMDebugNetworkLogsCellDataSource) {
+        func configCell(dataSource: XMNetworkLogsCellDataSource) {
             titleLabel.text = dataSource.title ?? "-"
             timeLabel.text = dataSource.time ?? "-"
             detailLabel.text = dataSource.detail ?? "-"
@@ -284,20 +284,24 @@ class XMDebugNetworkLogs {
 
 }
 
-extension XMDebugNetworkLogs.ViewController: UITableViewDelegate {
+extension XMNetworkLogs.ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //do sth.
+        if viewModel.canQueryCellInfo(index: indexPath.row) {
+            let detailVC = XMNetworkLogDetails.ViewController()
+            detailVC.configView(params: viewModel.logs[indexPath.row])
+            self.navigationController?.pushViewController(detailVC, animated: true)
+        }
     }
 }
 
-extension XMDebugNetworkLogs.ViewController: UITableViewDataSource {
+extension XMNetworkLogs.ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.logs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "XMDebugNetworkLogs.Cell", for: indexPath) as? XMDebugNetworkLogs.Cell
-        if viewModel.canQueryRequestLog(index: indexPath.row) {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "XMNetworkLogs.Cell", for: indexPath) as? XMNetworkLogs.Cell
+        if viewModel.canQueryCellInfo(index: indexPath.row) {
             cell?.configCell(dataSource: viewModel.logs[indexPath.row])
         }
         return cell ?? UITableViewCell()

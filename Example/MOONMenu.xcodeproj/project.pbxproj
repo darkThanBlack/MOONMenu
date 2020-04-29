@@ -15,8 +15,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		782F70485CE82432FEA51915 /* Pods_MOONMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9488737A5EC616B997024FD7 /* Pods_MOONMenu_Tests.framework */; };
-		8852DD7824591AA4000957B3 /* XMDebugNetworkLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */; };
+		884A4A6624596B9A00C1C820 /* XMDebugCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A4A6524596B9A00C1C820 /* XMDebugCell.swift */; };
+		8852DD7824591AA4000957B3 /* XMNetworkLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7724591AA4000957B3 /* XMNetworkLogs.swift */; };
 		8852DD7A24591B4E000957B3 /* ExampleDebugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8852DD7924591B4E000957B3 /* ExampleDebugs.swift */; };
+		8885F47D24595052005494AB /* XMNetworkLogDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885F47C24595052005494AB /* XMNetworkLogDetails.swift */; };
+		8885F48224595225005494AB /* XMAppInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885F48124595225005494AB /* XMAppInfoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +48,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61BD29ACF94DD2953B56C1B9 /* MOONMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MOONMenu.podspec; path = ../MOONMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMDebugNetworkLogs.swift; sourceTree = "<group>"; };
+		884A4A6524596B9A00C1C820 /* XMDebugCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMDebugCell.swift; sourceTree = "<group>"; };
+		8852DD7724591AA4000957B3 /* XMNetworkLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMNetworkLogs.swift; sourceTree = "<group>"; };
 		8852DD7924591B4E000957B3 /* ExampleDebugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDebugs.swift; sourceTree = "<group>"; };
+		8885F47C24595052005494AB /* XMNetworkLogDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMNetworkLogDetails.swift; sourceTree = "<group>"; };
+		8885F48124595225005494AB /* XMAppInfoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMAppInfoList.swift; sourceTree = "<group>"; };
 		9488737A5EC616B997024FD7 /* Pods_MOONMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOONMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D59312DCA20EA9CA143C674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9DAA7630703FB3C316DCED2 /* Pods_MOONMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MOONMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				8852DD7924591B4E000957B3 /* ExampleDebugs.swift */,
+				8885F47E245951C0005494AB /* AppInfo */,
 				8852DD7624591A8D000957B3 /* NetworkLog */,
 			);
 			path = Debug;
@@ -165,9 +172,19 @@
 		8852DD7624591A8D000957B3 /* NetworkLog */ = {
 			isa = PBXGroup;
 			children = (
-				8852DD7724591AA4000957B3 /* XMDebugNetworkLogs.swift */,
+				8852DD7724591AA4000957B3 /* XMNetworkLogs.swift */,
+				8885F47C24595052005494AB /* XMNetworkLogDetails.swift */,
+				884A4A6524596B9A00C1C820 /* XMDebugCell.swift */,
 			);
 			path = NetworkLog;
+			sourceTree = "<group>";
+		};
+		8885F47E245951C0005494AB /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8885F48124595225005494AB /* XMAppInfoList.swift */,
+			);
+			path = AppInfo;
 			sourceTree = "<group>";
 		};
 		A714C3B03B1D1758FF125264 /* Pods */ = {
@@ -355,10 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8885F48224595225005494AB /* XMAppInfoList.swift in Sources */,
 				8852DD7A24591B4E000957B3 /* ExampleDebugs.swift in Sources */,
+				8885F47D24595052005494AB /* XMNetworkLogDetails.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				884A4A6624596B9A00C1C820 /* XMDebugCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				8852DD7824591AA4000957B3 /* XMDebugNetworkLogs.swift in Sources */,
+				8852DD7824591AA4000957B3 /* XMNetworkLogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +524,7 @@
 			baseConfigurationReference = 4C0D527F8A2165AED05C0A38 /* Pods-MOONMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MOONMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,6 +541,7 @@
 			baseConfigurationReference = 1388BB6F934EE88D6922B436 /* Pods-MOONMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MOONMenu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
